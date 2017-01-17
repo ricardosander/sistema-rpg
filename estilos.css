@@ -56,3 +56,27 @@
 	padding: 20px;
 	float: left;
 }
+
+.armas {
+	clear: left;
+}
+
+.armas .armas {
+	float: left;
+}
+
+.armas .modificadores {
+	float: left;
+}
+
+.equipamentos {
+	clear: left;
+}
+
+.equipamentos .equipamentos {
+	float: left;
+}
+
+.equipamentos .modificadores {
+	float: left;
+}
