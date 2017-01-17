@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ficha de RPG</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+	<!-- document.querySelector('input[name="raciocinio"]:checked').value;  -->
+	<body>
+
+		<main>
+			<div class="container">
+				<h1>Ficha de RPG</h1>
+				<form>
+					<div class="atributos">
+						<h2>Atributos</h2>	
+						<div class="grupo-atributos">
+							<div class="form-group">
+								<label>Inteligência:</label>
+								<label class="radio-inline"><input type="radio" name="inteligencia" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="inteligencia" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="inteligencia" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="inteligencia" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="inteligencia" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Raciocínio:</label>
+								<label class="radio-inline"><input type="radio" name="raciocinio" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="raciocinio" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="raciocinio" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="raciocinio" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="raciocinio" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Perseverança:</label>
+								<label class="radio-inline"><input type="radio" name="perseveranca" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="perseveranca" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="perseveranca" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="perseveranca" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="perseveranca" value="5"></label>
+							</div>
+						</div>
+	 					<div class="grupo-atributos">
+	 						<div class="form-group">
+								<label>Força:</label>
+								<label class="radio-inline"><input type="radio" name="forca" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="forca" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="forca" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="forca" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="forca" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Destreza:</label>
+								<label class="radio-inline"><input type="radio" name="destreza" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="destreza" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="destreza" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="destreza" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="destreza" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Vigor:</label>
+								<label class="radio-inline"><input type="radio" name="vigor" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="vigor" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="vigor" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="vigor" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="vigor" value="5"></label>
+							</div>
+						</div>
+						<div class="grupo-atributos">
+	 						<div class="form-group">
+								<label>Presença:</label>
+								<label class="radio-inline"><input type="radio" name="presenca" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="presenca" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="presenca" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="presenca" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="presenca" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Manipulação:</label>
+								<label class="radio-inline"><input type="radio" name="manipulacao" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="manipulacao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="manipulacao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="manipulacao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="manipulacao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Autocontrole:</label>
+								<label class="radio-inline"><input type="radio" name="autocontrole" value="1" checked></label>
+								<label class="radio-inline"><input type="radio" name="autocontrole" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="autocontrole" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="autocontrole" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="autocontrole" value="5"></label>
+							</div>	
+	 					</div>
+	 				</div>
+	 				<div class="habilidades">
+	 					<h2>Habilidades</h2>
+	 					<div class="grupo_habilidades">
+	 						<h3>Mentais</h3>(-3 se inepto)
+	 						<div class="form-group">
+								<label>Ciências:</label>
+								<label class="radio-inline"><input type="radio" name="ciencias" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="ciencias" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="ciencias" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="ciencias" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="ciencias" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Erudição:</label>
+								<label class="radio-inline"><input type="radio" name="erudicao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="erudicao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="erudicao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="erudicao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="erudicao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Informática:</label>
+								<label class="radio-inline"><input type="radio" name="informatica" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="informatica" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="informatica" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="informatica" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="informatica" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Investigação:</label>
+								<label class="radio-inline"><input type="radio" name="investigacao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="investigacao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="investigacao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="investigacao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="investigacao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Medicina:</label>
+								<label class="radio-inline"><input type="radio" name="medicina" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="medicina" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="medicina" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="medicina" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="medicina" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Ocultismo:</label>
+								<label class="radio-inline"><input type="radio" name="ocultismo" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="ocultismo" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="ocultismo" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="ocultismo" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="ocultismo" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Ofícios:</label>
+								<label class="radio-inline"><input type="radio" name="oficios" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="oficios" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="oficios" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="oficios" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="oficios" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Política:</label>
+								<label class="radio-inline"><input type="radio" name="politica" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="politica" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="politica" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="politica" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="politica" value="5"></label>
+							</div>
+	 					</div>
+	 					<div class="grupo_habilidades">
+	 						<h3>Físicas</h3>(-1 se inepto)
+	 						<div class="form-group">
+								<label>Armamento:</label>
+								<label class="radio-inline"><input type="radio" name="armamento" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="armamento" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="armamento" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="armamento" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="armamento" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Armas de Fogo:</label>
+								<label class="radio-inline"><input type="radio" name="armas_de_fogo" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="armas_de_fogo" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="armas_de_fogo" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="armas_de_fogo" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="armas_de_fogo" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Briga:</label>
+								<label class="radio-inline"><input type="radio" name="briga" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="briga" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="briga" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="briga" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="briga" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Condução:</label>
+								<label class="radio-inline"><input type="radio" name="conducao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="conducao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="conducao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="conducao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="conducao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Dissimulação:</label>
+								<label class="radio-inline"><input type="radio" name="dissimulacao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="dissimulacao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="dissimulacao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="dissimulacao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="dissimulacao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Esportes:</label>
+								<label class="radio-inline"><input type="radio" name="esportes" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="esportes" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="esportes" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="esportes" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="esportes" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Furto:</label>
+								<label class="radio-inline"><input type="radio" name="furto" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="furto" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="furto" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="furto" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="furto" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Sobrevivência:</label>
+								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="5"></label>
+							</div>
+	 					</div>
+	 					<div class="grupo_habilidades">
+	 						<h3>Sociais</h3>(-1 se inepto)
+	 						<div class="form-group">
+								<label>Astúcia:</label>
+								<label class="radio-inline"><input type="radio" name="astucia" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="astucia" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="astucia" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="astucia" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="astucia" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Empatia:</label>
+								<label class="radio-inline"><input type="radio" name="empatia" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="empatia" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="empatia" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="empatia" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="empatia" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Expressão:</label>
+								<label class="radio-inline"><input type="radio" name="expressao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="expressao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="expressao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="expressao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="expressao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Intimidação:</label>
+								<label class="radio-inline"><input type="radio" name="intimidacao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="intimidacao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="intimidacao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="intimidacao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="intimidacao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Manha:</label>
+								<label class="radio-inline"><input type="radio" name="manha" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="manha" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="manha" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="manha" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="manha" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Persuasão:</label>
+								<label class="radio-inline"><input type="radio" name="persuasao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="persuasao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="persuasao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="persuasao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="persuasao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Socialização:</label>
+								<label class="radio-inline"><input type="radio" name="socializacao" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="socializacao" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="socializacao" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="socializacao" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="socializacao" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label>Tratos com Animais:</label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+	 					</div>
+	 				</div>
+	 				<div class="outras_caracteristicas">
+	 					<h2>Outras Características</h2>
+	 					<div class="vantagens">
+	 						<h3>Vantagens</h3>
+	 						<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+							<div class="form-group">
+								<label><input type="text" class="form-control" name="vantagem[]"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
+							</div>
+	 					</div>
+	 					<div class="vitalidade">
+	 						<h3>Vitalidade</h3>
+	 						<div class="form-group">
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="5"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="6"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="7"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="8"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="9"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="10"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="11"></label>
+								<label class="radio-inline"><input type="radio" name="vitalidade" value="12"></label>
+							</div>
+							<div class="form-group">
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="5"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="6"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="7"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="8"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="9"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="10"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="11"></label>
+								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="12"></label>
+							</div>
+	 					</div>
+	 					<div class="forca_vontade">
+	 						<h3>Força de Vontade</h3>
+	 						<div class="form-group">
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="5"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="6"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="7"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="8"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="9"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="10"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="11"></label>
+								<label class="radio-inline"><input type="radio" name="forca_vontade" value="12"></label>
+							</div>
+							<div class="form-group">
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="1"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="2"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="3"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="4"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="5"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="6"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="7"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="8"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="9"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="10"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="11"></label>
+								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="12"></label>
+							</div>
+	 					</div>
+	 					<div class="desvantagens">
+	 						<h3>Desvantagens</h3>
+	 						<div class="form-group">
+								<input class="form-control" type="text" name="desvantagens[]">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="text" name="desvantagens[]">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="text" name="desvantagens[]">
+							</div>	 						
+	 					</div>
+	 					<div class="moralidade">
+	 						<h3>Moralidade</h3>
+	 					</div>
+	 					<div class="caracteristicas">
+	 						<div class="form-group">
+	 							<label for="tamanho">Tamanho</label>
+	 							<input class="form-control" type="text" name="tamanho" />
+	 						</div>
+	 						<div class="form-group">
+	 							<label for="deslocamento">Deslocamento</label>
+	 							<input class="form-control" type="text" name="deslocamento" />
+	 						</div>
+	 						<div class="form-group">
+	 							<label for="modificador_iniciativa">Mod. Iniciativa</label>
+	 							<input class="form-control" type="text" name="modificador_iniciativa" />
+	 						</div>
+	 						<div class="form-group">
+	 							<label for="defesa">Defesa</label>
+	 							<input class="form-control" type="text" name="defesa" />
+	 						</div>
+	 						<div class="form-group">
+	 							<label for="blindagem">Blindagem</label>
+	 							<input class="form-control" type="text" name="blindagem" />
+	 						</div>
+	 					</div>
+	 					<div class="experiencia">
+	 						<label for="experiencia"><h3>Experiência</h3></label>
+	 						<input type="text" name="experiencia" class="form-control">
+	 					</div>
+	 					<div class="armas">
+
+	 					</div>
+	 					<div class="equipamentos">
+
+	 					</div>
+	 				</div>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>

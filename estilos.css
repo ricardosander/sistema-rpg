@@ -1,0 +1,58 @@
+.grupo-atributos {
+	float: left;
+	padding: 10px;
+	margin-right: 30px;
+	border: 1px solid black;
+}
+
+.atributos {
+	float: left
+	clear: right;
+}
+
+.habilidades {
+	clear: left;
+	float: left;
+	padding: 20px;
+}
+
+.outras_caracteristicas {
+	float: left;
+}
+
+.vantagens {
+	padding: 20px;
+	float: left;
+}
+
+.vitalidade {
+	padding: 20px;
+	float: left;	
+}
+
+.forca_vontade {
+	padding: 20px;
+	float: left;	
+}
+
+.desvantagens{
+	padding: 20px;
+	clear: left;
+	float: left;
+}
+
+.moralidade {
+	padding: 20px;
+	float: left;
+}
+
+.caracteristicas {
+	clear: left;;
+	padding: 20px;
+	float: left;
+}
+
+.experiencia {
+	padding: 20px;
+	float: left;
+}
