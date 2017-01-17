@@ -1,23 +1,46 @@
+h1, h2 {
+	text-align: center;
+	margin: 20px;	
+}
+
 .grupo-atributos {
 	float: left;
 	padding: 10px;
-	margin-right: 30px;
+	display: block;
 	border: 1px solid black;
+	margin-left: 8%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+.atributos_titulo {
+	text-align: center;
+}
+
+.atributos, .atributos_titulo {
+	float: left;
+	clear: right;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .atributos {
-	float: left
-	clear: right;
+	border-top: 1px solid black;
 }
 
 .habilidades {
 	clear: left;
 	float: left;
 	padding: 20px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .outras_caracteristicas {
 	float: left;
+	border-bottom: 1px solid black;
 }
 
 .vantagens {

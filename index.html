@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ficha de RPG</title>
+		<title>Ficha de RPG - Mundo das Trevas</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="estilos.css">
 	</head>
@@ -10,10 +11,11 @@
 
 		<main>
 			<div class="container">
-				<h1>Ficha de RPG</h1>
+				<h1>O Mundo das Trevas</h1>
+				<h2>Ficha de RPG</h2>
 				<form>
-					<div class="identificacao">
-						<div>
+					<div class="identificacao col-xs-12">
+						<div class="col-xs-4">
 							<div class="form-group">
 								<label for="nome">Nome:</label>
 								<input type="text" name="nome" class="form-control">
@@ -27,7 +29,7 @@
 								<input type="text" name="jogador" class="form-control">
 							</div>
 						</div>
-						<div>
+						<div class="col-xs-4">
 							<div class="form-group">
 								<label for="conceito">Conceito:</label>
 								<input type="text" name="conceito" class="form-control">
@@ -41,7 +43,7 @@
 								<input type="text" name="vicio" class="form-control">
 							</div>
 						</div>
-						<div>
+						<div class="col-xs-4">
 							<div class="form-group">
 								<label for="cronica">Crônica:</label>
 								<input type="text" name="cronica" class="form-control">
@@ -56,9 +58,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="atributos">
-						<h2>Atributos</h2>	
-						<div class="grupo-atributos">
+					<div class="atributos_titulo col-xs-12 center-block">
+						<h2>Atributos</h2>
+					</div>	
+					<div class="atributos col-xs-12 center-block">
+						<div class="grupo-atributos col-xs-3">
 							<div class="form-group">
 								<label>Inteligência:</label>
 								<label class="radio-inline"><input type="radio" name="inteligencia" value="1" checked></label>
@@ -84,7 +88,7 @@
 								<label class="radio-inline"><input type="radio" name="perseveranca" value="5"></label>
 							</div>
 						</div>
-	 					<div class="grupo-atributos">
+	 					<div class="grupo-atributos col-xs-3">
 	 						<div class="form-group">
 								<label>Força:</label>
 								<label class="radio-inline"><input type="radio" name="forca" value="1" checked></label>
@@ -110,7 +114,7 @@
 								<label class="radio-inline"><input type="radio" name="vigor" value="5"></label>
 							</div>
 						</div>
-						<div class="grupo-atributos">
+						<div class="grupo-atributos col-xs-3">
 	 						<div class="form-group">
 								<label>Presença:</label>
 								<label class="radio-inline"><input type="radio" name="presenca" value="1" checked></label>
@@ -137,9 +141,9 @@
 							</div>	
 	 					</div>
 	 				</div>
-	 				<div class="habilidades">
+	 				<div class="habilidades col-xs-4">
 	 					<h2>Habilidades</h2>
-	 					<div class="grupo_habilidades">
+	 					<div class="grupo_habilidades col-xs-12">
 	 						<h3>Mentais</h3>(-3 se inepto)
 	 						<div class="form-group">
 								<label>Ciências:</label>
@@ -206,7 +210,7 @@
 								<label class="radio-inline"><input type="radio" name="politica" value="5"></label>
 							</div>
 	 					</div>
-	 					<div class="grupo_habilidades">
+	 					<div class="grupo_habilidades col-xs-12">
 	 						<h3>Físicas</h3>(-1 se inepto)
 	 						<div class="form-group">
 								<label>Armamento:</label>
@@ -273,7 +277,7 @@
 								<label class="radio-inline"><input type="radio" name="sobrevivencia" value="5"></label>
 							</div>
 	 					</div>
-	 					<div class="grupo_habilidades">
+	 					<div class="grupo_habilidades col-xs-12">
 	 						<h3>Sociais</h3>(-1 se inepto)
 	 						<div class="form-group">
 								<label>Astúcia:</label>
@@ -341,9 +345,9 @@
 							</div>
 	 					</div>
 	 				</div>
-	 				<div class="outras_caracteristicas">
+	 				<div class="outras_caracteristicas col-xs-8">
 	 					<h2>Outras Características</h2>
-	 					<div class="vantagens">
+	 					<div class="vantagens col-xs-6">
 	 						<h3>Vantagens</h3>
 	 						<div class="form-group">
 								<label><input type="text" class="form-control" name="vantagem[]"></label>
@@ -418,7 +422,7 @@
 								<label class="radio-inline"><input type="radio" name="trato_com_animais" value="5"></label>
 							</div>
 	 					</div>
-	 					<div class="vitalidade">
+	 					<div class="vitalidade col-xs-6">
 	 						<h3>Vitalidade</h3>
 	 						<div class="form-group">
 								<label class="radio-inline"><input type="radio" name="vitalidade" value="1"></label>
@@ -449,7 +453,7 @@
 								<label class="radio-inline"><input type="radio" name="dano_vitalidade" value="12"></label>
 							</div>
 	 					</div>
-	 					<div class="forca_vontade">
+	 					<div class="forca_vontade col-xs-6">
 	 						<h3>Força de Vontade</h3>
 	 						<div class="form-group">
 								<label class="radio-inline"><input type="radio" name="forca_vontade" value="1"></label>
@@ -480,7 +484,7 @@
 								<label class="radio-inline"><input type="radio" name="dano_forca_vontade" value="12"></label>
 							</div>
 	 					</div>
-	 					<div class="desvantagens">
+	 					<div class="desvantagens col-xs-6">
 	 						<h3>Desvantagens</h3>
 	 						<div class="form-group">
 								<input class="form-control" type="text" name="desvantagens[]">
@@ -492,10 +496,10 @@
 								<input class="form-control" type="text" name="desvantagens[]">
 							</div>	 						
 	 					</div>
-	 					<div class="moralidade">
+	 					<div class="moralidade col-xs-6">
 	 						<h3>Moralidade</h3>
 	 					</div>
-	 					<div class="caracteristicas">
+	 					<div class="caracteristicas col-xs-6">
 	 						<div class="form-group">
 	 							<label for="tamanho">Tamanho</label>
 	 							<input class="form-control" type="text" name="tamanho" />
@@ -517,13 +521,13 @@
 	 							<input class="form-control" type="text" name="blindagem" />
 	 						</div>
 	 					</div>
-	 					<div class="experiencia">
+	 					<div class="experiencia col-xs-6">
 	 						<label for="experiencia"><h3>Experiência</h3></label>
 	 						<input type="text" name="experiencia" class="form-control">
 	 					</div>
-	 					<div class="armas">
+	 					<div class="armas" col-xs-12>
 
-	 						<div class="armas">
+	 						<div class="armas col-xs-8">
 	 							<h3>Armas</h3>
 	 							<div class="form-group">
 	 								<input type="text" name="armas[]" class="form-control" />
@@ -535,7 +539,7 @@
 	 								<input type="text" name="armas[]" class="form-control" />
 	 							</div>
 	 						</div>
-	 						<div class="modificadores">
+	 						<div class="modificadores col-xs-4">
 	 							<h3>Modificadores</h3>
 	 							<div class="form-group">
 	 								<input type="text" name="armas_modificadores[]" class="form-control" />
@@ -548,9 +552,9 @@
 	 							</div>
 	 						</div>
 	 					</div>
-	 					<div class="equipamentos">
+	 					<div class="equipamentos col-xs-12">
 
-	 						<div class="equipamentos">
+	 						<div class="equipamentos col-xs-8">
 	 							<h3>Equipamentos</h3>
 	 							<div class="form-group">
 	 								<input type="text" name="equipamentos[]" class="form-control" />
@@ -562,7 +566,7 @@
 	 								<input type="text" name="equipamentos[]" class="form-control" />
 	 							</div>
 	 						</div>
-	 						<div class="modificadores">
+	 						<div class="modificadores col-xs-4">
 	 							<h3>Modificadores</h3>
 	 							<div class="form-group">
 	 								<input type="text" name="equipamentos_modificadores[]" class="form-control" />
