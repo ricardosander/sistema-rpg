@@ -3,6 +3,35 @@ h1, h2 {
 	margin: 20px;	
 }
 
+.grupo-identificacao .form-control {
+	display: inline-block;
+	width: auto;
+}
+
+.grupo-identificacao .form-group label {
+	width: 40%;
+}
+
+.form-group .form-control {
+	width: 55%;
+}
+
+.grupo-identificacao {
+	width: 300px;
+	display: inline-block;
+	margin: 10px;
+	text-align: left;
+}
+
+.grupo-identificacao div {
+	display: inline-block;
+	width: 300px;
+}
+
+.radio-rate  {
+	width: auto;
+}
+
 .grupo-atributos {
 	float: left;
 	padding: 10px;
@@ -11,8 +40,15 @@ h1, h2 {
 	margin-left: 8%;
 	margin-top: 2%;
 	margin-bottom: 2%;
+	text-align: left;
+	width: 250px;
 }
 
+.atributos-opcoes {
+	float: right;
+	display: inline-block;
+	text-align: right;
+}
 
 .atributos_titulo {
 	text-align: center;
@@ -36,6 +72,25 @@ h1, h2 {
 	padding: 20px;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
+	width: 300px;
+}
+
+.habilidade_se_inepto {
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.grupo_habilidades  {
+	text-align: center;
+}
+
+.grupo_habilidades .form-group {
+	text-align: left;
+}
+
+.habilidades-opcoes {
+	display: inline-block;
+	float: right;
 }
 
 .outras_caracteristicas {
@@ -46,38 +101,81 @@ h1, h2 {
 .vantagens {
 	padding: 20px;
 	float: left;
+	width: 450px;
 }
 
-.vitalidade {
+.vantagens .form-group {
+	width: 100%;
+}
+
+.vantagem-titulo {
+	width: 50%;
+} 
+
+.vantagens .form-group {
+	float: left;
+}
+
+.vantagem-titulo .form-control {
+	width: 100%;
+}
+
+.vantagem-opcoes {
+	width: 45%;
+	display: inline-block;
+	float: right;
+} 
+
+.vitalidade, .forca_vontade {
 	padding: 20px;
 	float: left;	
+	width: 250px;
 }
 
-.forca_vontade {
-	padding: 20px;
-	float: left;	
-}
-
-.desvantagens{
+.desvantagens {
 	padding: 20px;
 	clear: left;
 	float: left;
+	width: 450px;
+}
+
+.desvantagens h3 {
+	text-align: center;
+}
+
+.desvantagens .form-group .form-control {
+	width: 100%;
 }
 
 .moralidade {
 	padding: 20px;
 	float: left;
+	width: 250px;
+}
+
+.moralidade h3 {
+	text-align: center;
 }
 
 .caracteristicas {
 	clear: left;;
 	padding: 20px;
 	float: left;
+	width: 450px;
+}
+
+.caracteristicas .form-group .form-control {
+	width: 100%;
 }
 
 .experiencia {
 	padding: 20px;
 	float: left;
+	width: 250px;
+}
+
+.experiencia .form-control {
+	width: 100%;
 }
 
 .armas {
@@ -92,6 +190,10 @@ h1, h2 {
 	float: left;
 }
 
+.armas .form-group .form-control {
+	width: 100%;
+}
+
 .equipamentos {
 	clear: left;
 }
@@ -102,4 +204,8 @@ h1, h2 {
 
 .equipamentos .modificadores {
 	float: left;
+}
+
+.equipamentos .form-group .form-control {
+	width: 100%;
 }
