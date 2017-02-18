@@ -1,211 +1,313 @@
+html {
+    font-size: 100%;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: .1em;
+    width: auto;
+}
+
+.container {
+    width: 90%;
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1em;
+    /*border: 1px solid black;*/
+}
+
 h1, h2 {
-	text-align: center;
-	margin: 20px;	
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .1em;
+    /*border: 1px solid black;*/
 }
 
-.grupo-identificacao .form-control {
-	display: inline-block;
-	width: auto;
+h1 {
+    font-size: 3em;
+    padding: .1em;
 }
 
-.grupo-identificacao .form-group label {
-	width: 40%;
+h2 {
+    font-size: 2em;
+    padding: .2em;
 }
 
-.form-group .form-control {
-	width: 55%;
+.identificacao {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grupo-identificacao {
-	width: 300px;
-	display: inline-block;
-	margin: 10px;
-	text-align: left;
+    flex: 1;
+    padding: .3em;
+    margin: .2em;
+    min-width: 370px;
+    /*border: 1px solid black;*/
 }
 
 .grupo-identificacao div {
-	display: inline-block;
-	width: 300px;
+    display: block;
+    margin: .3em;
+    padding: .3em;
+    /*border: 1px solid black;*/
 }
 
-.radio-rate  {
-	width: auto;
+.grupo-identificacao div label {
+    width: 7em;
+    display: inline-block;
+    /*border: 1px solid black;*/
 }
 
-.grupo-atributos {
-	float: left;
-	padding: 10px;
-	display: block;
-	border: 1px solid black;
-	margin-left: 8%;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	text-align: left;
-	width: 250px;
-}
-
-.atributos-opcoes {
-	float: right;
-	display: inline-block;
-	text-align: right;
-}
-
-.atributos_titulo {
-	text-align: center;
-}
-
-.atributos, .atributos_titulo {
-	float: left;
-	clear: right;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+.grupo-identificacao input {
+    width: calc(90% - 7em);
 }
 
 .atributos {
-	border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
 
-.habilidades {
-	clear: left;
-	float: left;
-	padding: 20px;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	width: 300px;
+.atributo {
+    display: block;
+    padding: .3em;
 }
 
-.habilidade_se_inepto {
-	margin-top: -5px;
-	margin-bottom: 20px;
+.atributo label {
+    margin-left: 3em;
 }
 
-.grupo_habilidades  {
-	text-align: center;
+.grupo-atributos {
+    flex: 1;
+    min-width: 370px;
+    border: 1px solid black;
 }
 
-.grupo_habilidades .form-group {
-	text-align: left;
+.atributos-opcoes {
+    display: inline-block;
+    float: right;
+    margin-right: 3em;
+    border: 1px solid black;
 }
 
-.habilidades-opcoes {
-	display: inline-block;
-	float: right;
-}
+/*h1, h2 {*/
+	/*text-align: center;*/
+	/*margin: 20px;	*/
+/*}*/
 
-.outras_caracteristicas {
-	float: left;
-	border-bottom: 1px solid black;
-}
+/*.container{*/
+	/*margin-left: 10px;*/
+/*}*/
 
-.vantagens {
-	padding: 20px;
-	float: left;
-	width: 450px;
-}
+/*.grupo-identificacao .form-control {*/
+	/*display: inline-block;*/
+	/*width: auto;*/
+/*}*/
 
-.vantagens .form-group {
-	width: 100%;
-}
+/*.grupo-identificacao .form-group label {*/
+	/*width: 40%;*/
+/*}*/
 
-.vantagem-titulo {
-	width: 50%;
-} 
+/*.form-group .form-control {*/
+	/*width: 55%;*/
+/*}*/
 
-.vantagens .form-group {
-	float: left;
-}
+/*.grupo-identificacao {*/
+	/*width: 330px;*/
+	/*display: inline-block;*/
+	/*margin: 10px;*/
+	/*text-align: left;*/
+/*}*/
 
-.vantagem-titulo .form-control {
-	width: 100%;
-}
 
-.vantagem-opcoes {
-	width: 45%;
-	display: inline-block;
-	float: right;
-} 
+/*.radio-rate  {*/
+	/*width: auto;*/
+/*}*/
 
-.vitalidade, .forca_vontade {
-	padding: 20px;
-	float: left;	
-	width: 250px;
-}
+/*.grupo-atributos {*/
+	/*float: left;*/
+	/*padding: 10px;*/
+	/*display: block;*/
+	/*border: 1px solid black;*/
+	/*margin-left: 10px;*/
+	/*margin-top: 2%;*/
+	/*margin-bottom: 2%;*/
+	/*text-align: left;*/
+	/*width: 350px;*/
+/*}*/
 
-.desvantagens {
-	padding: 20px;
-	clear: left;
-	float: left;
-	width: 450px;
-}
+/*.atributos-opcoes {*/
+	/*float: right;*/
+	/*display: inline-block;*/
+	/*text-align: right;*/
+/*}*/
 
-.desvantagens h3 {
-	text-align: center;
-}
+/*.atributos_titulo {*/
+	/*text-align: center;*/
+/*}*/
 
-.desvantagens .form-group .form-control {
-	width: 100%;
-}
+/*.atributos, .atributos_titulo {*/
+	/*float: left;*/
+	/*clear: right;*/
+	/*display: block;*/
+	/*margin-right: auto;*/
+	/*margin-left: auto;*/
+/*}*/
 
-.moralidade {
-	padding: 20px;
-	float: left;
-	width: 250px;
-}
+/*.atributos {*/
+	/*border-top: 1px solid black;*/
+/*}*/
 
-.moralidade h3 {
-	text-align: center;
-}
+/*.habilidades {*/
+	/*clear: left;*/
+	/*float: left;*/
+	/*padding: 20px;*/
+	/*border-right: 1px solid black;*/
+	/*border-bottom: 1px solid black;*/
+	/*width: 370px;*/
+/*}*/
 
-.caracteristicas {
-	clear: left;;
-	padding: 20px;
-	float: left;
-	width: 450px;
-}
+/*.habilidade_se_inepto {*/
+	/*margin-top: -5px;*/
+	/*margin-bottom: 20px;*/
+/*}*/
 
-.caracteristicas .form-group .form-control {
-	width: 100%;
-}
+/*.grupo_habilidades  {*/
+	/*text-align: center;*/
+/*}*/
 
-.experiencia {
-	padding: 20px;
-	float: left;
-	width: 250px;
-}
+/*.grupo_habilidades .form-group {*/
+	/*text-align: left;*/
+/*}*/
 
-.experiencia .form-control {
-	width: 100%;
-}
+/*.habilidades-opcoes {*/
+	/*display: inline-block;*/
+	/*float: right;*/
+/*}*/
 
-.armas {
-	clear: left;
-}
+/*.outras_caracteristicas {*/
+	/*float: left;*/
+	/*border-bottom: 1px solid black;*/
+	/*width: 750px;*/
+/*}*/
 
-.armas .armas {
-	float: left;
-}
+/*.vantagens {*/
+	/*padding: 20px;*/
+	/*float: left;*/
+	/*width: 450px;*/
+/*}*/
 
-.armas .modificadores {
-	float: left;
-}
+/*.vantagens .form-group {*/
+	/*width: 100%;*/
+/*}*/
 
-.armas .form-group .form-control {
-	width: 100%;
-}
+/*.vantagem-titulo {*/
+	/*width: 50%;*/
+/*} */
 
-.equipamentos {
-	clear: left;
-}
+/*.vantagens .form-group {*/
+	/*float: left;*/
+/*}*/
 
-.equipamentos .equipamentos {
-	float: left;
-}
+/*.vantagem-titulo .form-control {*/
+	/*width: 100%;*/
+/*}*/
 
-.equipamentos .modificadores {
-	float: left;
-}
+/*.vantagem-opcoes {*/
+	/*width: 45%;*/
+	/*display: inline-block;*/
+	/*float: right;*/
+/*} */
 
-.equipamentos .form-group .form-control {
-	width: 100%;
-}
+/*.vitalidade, .forca_vontade {*/
+	/*padding: 20px;*/
+	/*float: left;	*/
+	/*width: 250px;*/
+/*}*/
+
+/*.desvantagens {*/
+	/*padding: 20px;*/
+	/*clear: left;*/
+	/*float: left;*/
+	/*width: 450px;*/
+/*}*/
+
+/*.desvantagens h3 {*/
+	/*text-align: center;*/
+/*}*/
+
+/*.desvantagens .form-group .form-control {*/
+	/*width: 100%;*/
+/*}*/
+
+/*.moralidade {*/
+	/*padding: 20px;*/
+	/*float: left;*/
+	/*width: 250px;*/
+/*}*/
+
+/*.moralidade h3 {*/
+	/*text-align: center;*/
+/*}*/
+
+/*.caracteristicas {*/
+	/*clear: left;;*/
+	/*padding: 20px;*/
+	/*float: left;*/
+	/*width: 450px;*/
+/*}*/
+
+/*.caracteristicas .form-group .form-control {*/
+	/*width: 100%;*/
+/*}*/
+
+/*.experiencia {*/
+	/*padding: 20px;*/
+	/*float: left;*/
+	/*width: 250px;*/
+/*}*/
+
+/*.experiencia .form-control {*/
+	/*width: 100%;*/
+/*}*/
+
+/*.armas {*/
+	/*clear: left;*/
+/*}*/
+
+/*.armas .armas {*/
+	/*float: left;*/
+/*}*/
+
+/*.armas .modificadores {*/
+	/*float: left;*/
+/*}*/
+
+/*.armas .form-group .form-control {*/
+	/*width: 100%;*/
+/*}*/
+
+/*.equipamentos {*/
+	/*clear: left;*/
+/*}*/
+
+/*.equipamentos .equipamentos {*/
+	/*float: left;*/
+/*}*/
+
+/*.equipamentos .modificadores {*/
+	/*float: left;*/
+/*}*/
+
+/*.equipamentos .form-group .form-control {*/
+	/*width: 100%;*/
+/*}*/

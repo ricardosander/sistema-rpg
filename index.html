@@ -1,671 +1,680 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Ficha de RPG - Mundo das Trevas</title>
-		<link rel="stylesheet" type="text/css" href="reset.css?v=1">
-		<link rel="stylesheet" type="text/css" href="bootstrap.css?v=1">
-		<link rel="stylesheet" type="text/css" href="estilos.css?v=1">
-	</head>
-	<!-- document.querySelector('input[name="raciocinio"]:checked').value;  -->
-	<body>
+<head>
+    <title>Ficha de RPG - Mundo das Trevas</title>
+    <link rel="stylesheet" type="text/css" href="reset.css?v=1">
+    <!--<link rel="stylesheet" type="text/css" href="bootstrap.css?v=1">-->
+    <link rel="stylesheet" type="text/css" href="estilos.css?v=1">
+</head>
+<!-- document.querySelector('input[name="raciocinio"]:checked').value;  -->
+<body>
 
-		<main>
-			<div class="container">
-				<h1>O Mundo das Trevas</h1>
-				<h2>Ficha de RPG</h2>
-				<form>
-					<div class="identificacao col-xs-12">
-						<div class="grupo-identificacao">
-							<div class="form-group">
-								<label for="nome">Nome:</label>
-								<input type="text" name="nome" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="idade">Idade:</label>
-								<input type="text" name="idade" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="jogador">Jogador:</label>
-								<input type="text" name="jogador" class="form-control">
-							</div>
-						</div>
-						<div class="grupo-identificacao">
-							<div class="form-group">
-								<label for="conceito">Conceito:</label>
-								<input type="text" name="conceito" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="virtude">Virtude:</label>
-								<input type="text" name="virtude" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="vicio">Vício:</label>
-								<input type="text" name="vicio" class="form-control">
-							</div>
-						</div>
-						<div class="grupo-identificacao">
-							<div class="form-group">
-								<label for="cronica">Crônica:</label>
-								<input type="text" name="cronica" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="faccao">Facção:</label>
-								<input type="text" name="faccao" class="form-control">
-							</div>
-							<div class="form-group">
-								<label for="nome_grupo">Nome do Grupo:</label>
-								<input type="text" name="nome_grupo" class="form-control">
-							</div>
-						</div>
-					</div>
-					<div class="atributos_titulo col-xs-12 center-block">
-						<h2>Atributos</h2>
-					</div>	
-					<div class="atributos col-xs-12 center-block">
-						<div class="grupo-atributos">
-							<div class="form-group">
-								<label>Inteligência:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="inteligencia" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="inteligencia" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="inteligencia" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="inteligencia" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="inteligencia" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Raciocínio:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="raciocinio" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="raciocinio" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="raciocinio" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="raciocinio" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="raciocinio" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Perseverança:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="perseveranca" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="perseveranca" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="perseveranca" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="perseveranca" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="perseveranca" value="5"></label>
-								</div>
-							</div>
-						</div>
-	 					<div class="grupo-atributos">
-	 						<div class="form-group">
-								<label>Força:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="forca" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="forca" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="forca" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="forca" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="forca" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Destreza:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="destreza" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="destreza" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="destreza" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="destreza" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="destreza" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Vigor:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="vigor" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="vigor" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vigor" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vigor" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vigor" value="5"></label>
-								</div>
-							</div>
-						</div>
-						<div class="grupo-atributos">
-	 						<div class="form-group">
-								<label>Presença:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="presenca" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="presenca" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="presenca" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="presenca" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="presenca" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Manipulação:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="manipulacao" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="manipulacao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="manipulacao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="manipulacao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="manipulacao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Autocontrole:</label>
-								<div class="atributos-opcoes">
-									<label class="radio-rate"><input type="radio" name="autocontrole" value="1" checked></label>
-									<label class="radio-rate"><input type="radio" name="autocontrole" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="autocontrole" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="autocontrole" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="autocontrole" value="5"></label>
-								</div>
-							</div>	
-	 					</div>
-	 				</div>
-	 				<div class="habilidades">
-	 					<h2>Habilidades</h2>
-	 					<div class="grupo_habilidades col-xs-12">
-	 						<h3>Mentais</h3><p class="habilidade_se_inepto">(-3 se inepto)</p>
-	 						<div class="form-group">
-								<label>Ciências:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="ciencias" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="ciencias" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="ciencias" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="ciencias" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="ciencias" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Erudição:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="erudicao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="erudicao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="erudicao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="erudicao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="erudicao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Informática:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="informatica" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="informatica" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="informatica" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="informatica" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="informatica" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Investigação:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="investigacao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="investigacao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="investigacao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="investigacao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="investigacao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Medicina:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="medicina" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="medicina" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="medicina" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="medicina" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="medicina" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Ocultismo:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="ocultismo" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="ocultismo" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="ocultismo" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="ocultismo" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="ocultismo" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Ofícios:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="oficios" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="oficios" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="oficios" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="oficios" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="oficios" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Política:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="politica" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="politica" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="politica" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="politica" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="politica" value="5"></label>
-								</div>
-							</div>
-	 					</div>
-	 					<div class="grupo_habilidades col-xs-12">
-	 						<h3>Físicas</h3><p class="habilidade_se_inepto">(-1 se inepto)</p>
-	 						<div class="form-group">
-								<label>Armamento:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="armamento" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="armamento" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="armamento" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="armamento" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="armamento" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Armas de Fogo:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="armas_de_fogo" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="armas_de_fogo" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="armas_de_fogo" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="armas_de_fogo" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="armas_de_fogo" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Briga:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="briga" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="briga" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="briga" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="briga" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="briga" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Condução:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="conducao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="conducao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="conducao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="conducao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="conducao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Dissimulação:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="dissimulacao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="dissimulacao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="dissimulacao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="dissimulacao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="dissimulacao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Esportes:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="esportes" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="esportes" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="esportes" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="esportes" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="esportes" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Furto:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="furto" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="furto" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="furto" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="furto" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="furto" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Sobrevivência:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="sobrevivencia" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="sobrevivencia" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="sobrevivencia" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="sobrevivencia" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="sobrevivencia" value="5"></label>
-								</div>
-							</div>
-	 					</div>
-	 					<div class="grupo_habilidades col-xs-12">
-	 						<h3>Sociais</h3><p class="habilidade_se_inepto">(-1 se inepto)</p>
-	 						<div class="form-group">
-								<label>Astúcia:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="astucia" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="astucia" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="astucia" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="astucia" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="astucia" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Empatia:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="empatia" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="empatia" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="empatia" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="empatia" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="empatia" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Expressão:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="expressao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="expressao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="expressao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="expressao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="expressao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Intimidação:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="intimidacao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="intimidacao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="intimidacao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="intimidacao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="intimidacao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Manha:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="manha" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="manha" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="manha" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="manha" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="manha" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Persuasão:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="persuasao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="persuasao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="persuasao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="persuasao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="persuasao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Socialização:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="socializacao" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="socializacao" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="socializacao" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="socializacao" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="socializacao" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label>Tratos com Animais:</label>
-								<div class="habilidades-opcoes">
-									<label class="radio-rate"><input type="radio" name="trato_com_animais" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="trato_com_animais" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="trato_com_animais" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="trato_com_animais" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="trato_com_animais" value="5"></label>
-								</div>
-							</div>
-	 					</div>
-	 				</div>
-	 				<div class="outras_caracteristicas col-xs-8">
-	 					<h2>Outras Características</h2>
-	 					<div class="vantagens">
-	 						<h3>Vantagens</h3>
-	 						<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome1"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem1" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem1" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem1" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem1" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem1" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome2"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem2" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem2" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem2" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem2" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem2" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome3"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem3" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem3" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem3" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem3" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem3" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome4"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem4" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem4" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem4" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem4" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem4" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome5"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem5" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem5" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem5" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem5" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem5" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome6"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem6" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem6" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem6" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem6" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem6" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome7"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem7" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem7" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem7" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem7" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem7" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome8"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem8" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem8" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem8" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem8" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem8" value="5"></label>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="vantagem-titulo"><input type="text" class="form-control" name="vantagem_nome9"></label>
-								<div class="vantagem-opcoes">
-									<label class="radio-rate"><input type="radio" name="vantagem9" value="1"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem9" value="2"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem9" value="3"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem9" value="4"></label>
-									<label class="radio-rate"><input type="radio" name="vantagem9" value="5"></label>
-								</div>
-							</div>
-	 					</div>
-	 					<div class="vitalidade">
-	 						<h3>Vitalidade</h3>
-	 						<div class="form-group">
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="1"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="2"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="3"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="4"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="5"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="6"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="7"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="8"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="9"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="10"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="11"></label>
-								<label class="radio-rate"><input type="radio" name="vitalidade" value="12"></label>
-							</div>
-							<div class="form-group">
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="1"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="2"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="3"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="4"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="5"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="6"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="7"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="8"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="9"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="10"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="11"></label>
-								<label class="radio-rate"><input type="radio" name="dano_vitalidade" value="12"></label>
-							</div>
-	 					</div>
-	 					<div class="forca_vontade">
-	 						<h3>Força de Vontade</h3>
-	 						<div class="form-group">
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="1"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="2"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="3"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="4"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="5"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="6"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="7"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="8"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="9"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="10"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="11"></label>
-								<label class="radio-rate"><input type="radio" name="forca_vontade" value="12"></label>
-							</div>
-							<div class="form-group">
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="1"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="2"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="3"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="4"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="5"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="6"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="7"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="8"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="9"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="10"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="11"></label>
-								<label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="12"></label>
-							</div>
-	 					</div>
-	 					<div class="desvantagens">
-	 						<h3>Desvantagens</h3>
-	 						<div class="form-group">
-								<input class="form-control" type="text" name="desvantagens[]">
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="text" name="desvantagens[]">
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="text" name="desvantagens[]">
-							</div>	 						
-	 					</div>
-	 					<div class="moralidade">
-	 						<h3>Moralidade</h3>
-	 					</div>
-	 					<div class="caracteristicas">
-	 						<div class="form-group">
-	 							<label for="tamanho">Tamanho</label>
-	 							<input class="form-control" type="text" name="tamanho" />
-	 						</div>
-	 						<div class="form-group">
-	 							<label for="deslocamento">Deslocamento</label>
-	 							<input class="form-control" type="text" name="deslocamento" />
-	 						</div>
-	 						<div class="form-group">
-	 							<label for="modificador_iniciativa">Mod. Iniciativa</label>
-	 							<input class="form-control" type="text" name="modificador_iniciativa" />
-	 						</div>
-	 						<div class="form-group">
-	 							<label for="defesa">Defesa</label>
-	 							<input class="form-control" type="text" name="defesa" />
-	 						</div>
-	 						<div class="form-group">
-	 							<label for="blindagem">Blindagem</label>
-	 							<input class="form-control" type="text" name="blindagem" />
-	 						</div>
-	 					</div>
-	 					<div class="experiencia">
-	 						<label for="experiencia"><h3>Experiência</h3></label>
-	 						<input type="text" name="experiencia" class="form-control">
-	 					</div>
-	 					<div class="armas col-xs-12">
+<main>
+    <div class="container">
+        <h1>O Mundo das Trevas</h1>
+        <h2>Ficha de RPG</h2>
+        <form>
+            <div class="identificacao">
+                <div class="grupo-identificacao">
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div>
+                        <label>Idade:</label>
+                        <input type="text" name="idade">
+                    </div>
+                    <div>
+                        <label>Jogador:</label>
+                        <input type="text" name="jogador">
+                    </div>
+                </div>
+                <div class="grupo-identificacao">
+                    <div>
+                        <label>Conceito:</label>
+                        <input type="text" name="conceito">
+                    </div>
+                    <div>
+                        <label>Virtude:</label>
+                        <input type="text" name="virtude">
+                    </div>
+                    <div>
+                        <label>Vício:</label>
+                        <input type="text" name="vicio">
+                    </div>
+                </div>
+                <div class="grupo-identificacao">
+                    <div><label>Crônica:</label>
+                        <input type="text" name="cronica">
+                    </div>
+                    <div><label>Facção:</label>
+                        <input type="text" name="faccao">
+                    </div>
+                    <div><label>Nome do Grupo:</label>
+                        <input type="text" name="nome_grupo">
+                    </div>
+                </div>
+            </div>
+            <div class="atributos-titulo">
+                <h2>Atributos</h2>
+            </div>
+            <div class="atributos">
+                <div class="grupo-atributos">
+                    <div class="atributo">
+                        <label>Inteligência:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="inteligencia" value="1" checked>
+                            <input type="radio" name="inteligencia" value="2">
+                            <input type="radio" name="inteligencia" value="3">
+                            <input type="radio" name="inteligencia" value="4">
+                            <input type="radio" name="inteligencia" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Raciocínio:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="raciocinio" value="1" checked>
+                            <input type="radio" name="raciocinio" value="2">
+                            <input type="radio" name="raciocinio" value="3">
+                            <input type="radio" name="raciocinio" value="4">
+                            <input type="radio" name="raciocinio" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Perseverança:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="perseveranca" value="1" checked>
+                            <input type="radio" name="perseveranca" value="2">
+                            <input type="radio" name="perseveranca" value="3">
+                            <input type="radio" name="perseveranca" value="4">
+                            <input type="radio" name="perseveranca" value="5">
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-atributos">
+                    <div class="atributo">
+                        <label>Força:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="forca" value="1" checked>
+                            <input type="radio" name="forca" value="2">
+                            <input type="radio" name="forca" value="3">
+                            <input type="radio" name="forca" value="4">
+                            <input type="radio" name="forca" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Destreza:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="destreza" value="1" checked>
+                            <input type="radio" name="destreza" value="2">
+                            <input type="radio" name="destreza" value="3">
+                            <input type="radio" name="destreza" value="4">
+                            <input type="radio" name="destreza" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Vigor:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="vigor" value="1" checked>
+                            <input type="radio" name="vigor" value="2">
+                            <input type="radio" name="vigor" value="3">
+                            <input type="radio" name="vigor" value="4">
+                            <input type="radio" name="vigor" value="5">
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo-atributos">
+                    <div class="atributo">
+                        <label>Presença:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="presenca" value="1" checked>
+                            <input type="radio" name="presenca" value="2">
+                            <input type="radio" name="presenca" value="3">
+                            <input type="radio" name="presenca" value="4">
+                            <input type="radio" name="presenca" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Manipulação:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="manipulacao" value="1" checked>
+                            <input type="radio" name="manipulacao" value="2">
+                            <input type="radio" name="manipulacao" value="3">
+                            <input type="radio" name="manipulacao" value="4">
+                            <input type="radio" name="manipulacao" value="5">
+                        </div>
+                    </div>
+                    <div class="atributo">
+                        <label>Autocontrole:</label>
+                        <div class="atributos-opcoes">
+                            <input type="radio" name="autocontrole" value="1" checked>
+                            <input type="radio" name="autocontrole" value="2">
+                            <input type="radio" name="autocontrole" value="3">
+                            <input type="radio" name="autocontrole" value="4">
+                            <input type="radio" name="autocontrole" value="5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="habilidades">
+                <h2>Habilidades</h2>
+                <div class="grupo_habilidades col-xs-12">
+                    <h3>Mentais</h3>
+                    <p class="habilidade_se_inepto">(-3 se inepto)</p>
+                    <div class="form-group">
+                        <label>Ciências:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="ciencias" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="ciencias" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="ciencias" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="ciencias" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="ciencias" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Erudição:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="erudicao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="erudicao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="erudicao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="erudicao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="erudicao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Informática:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="informatica" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="informatica" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="informatica" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="informatica" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="informatica" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Investigação:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="investigacao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="investigacao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="investigacao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="investigacao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="investigacao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Medicina:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="medicina" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="medicina" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="medicina" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="medicina" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="medicina" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Ocultismo:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="ocultismo" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="ocultismo" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="ocultismo" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="ocultismo" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="ocultismo" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Ofícios:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="oficios" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="oficios" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="oficios" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="oficios" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="oficios" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Política:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="politica" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="politica" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="politica" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="politica" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="politica" value="5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo_habilidades col-xs-12">
+                    <h3>Físicas</h3>
+                    <p class="habilidade_se_inepto">(-1 se inepto)</p>
+                    <div class="form-group">
+                        <label>Armamento:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="armamento" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="armamento" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="armamento" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="armamento" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="armamento" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Armas de Fogo:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="armas_de_fogo" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="armas_de_fogo" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="armas_de_fogo" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="armas_de_fogo" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="armas_de_fogo" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Briga:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="briga" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="briga" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="briga" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="briga" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="briga" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Condução:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="conducao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="conducao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="conducao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="conducao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="conducao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Dissimulação:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="dissimulacao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="dissimulacao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="dissimulacao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="dissimulacao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="dissimulacao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Esportes:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="esportes" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="esportes" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="esportes" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="esportes" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="esportes" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Furto:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="furto" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="furto" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="furto" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="furto" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="furto" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Sobrevivência:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="sobrevivencia" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="sobrevivencia" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="sobrevivencia" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="sobrevivencia" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="sobrevivencia" value="5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="grupo_habilidades col-xs-12">
+                    <h3>Sociais</h3>
+                    <p class="habilidade_se_inepto">(-1 se inepto)</p>
+                    <div class="form-group">
+                        <label>Astúcia:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="astucia" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="astucia" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="astucia" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="astucia" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="astucia" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Empatia:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="empatia" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="empatia" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="empatia" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="empatia" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="empatia" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Expressão:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="expressao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="expressao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="expressao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="expressao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="expressao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Intimidação:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="intimidacao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="intimidacao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="intimidacao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="intimidacao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="intimidacao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Manha:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="manha" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="manha" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="manha" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="manha" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="manha" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Persuasão:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="persuasao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="persuasao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="persuasao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="persuasao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="persuasao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Socialização:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="socializacao" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="socializacao" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="socializacao" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="socializacao" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="socializacao" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Tratos com Animais:</label>
+                        <div class="habilidades-opcoes">
+                            <label class="radio-rate"><input type="radio" name="trato_com_animais" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="trato_com_animais" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="trato_com_animais" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="trato_com_animais" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="trato_com_animais" value="5"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="outras_caracteristicas">
+                <h2>Outras Características</h2>
+                <div class="vantagens">
+                    <h3>Vantagens</h3>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome1"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem1" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem1" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem1" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem1" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem1" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome2"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem2" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem2" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem2" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem2" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem2" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome3"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem3" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem3" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem3" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem3" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem3" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome4"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem4" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem4" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem4" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem4" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem4" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome5"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem5" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem5" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem5" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem5" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem5" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome6"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem6" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem6" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem6" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem6" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem6" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome7"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem7" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem7" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem7" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem7" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem7" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome8"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem8" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem8" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem8" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem8" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem8" value="5"></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="vantagem-titulo"><input type="text"
+                                                              name="vantagem_nome9"></label>
+                        <div class="vantagem-opcoes">
+                            <label class="radio-rate"><input type="radio" name="vantagem9" value="1"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem9" value="2"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem9" value="3"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem9" value="4"></label>
+                            <label class="radio-rate"><input type="radio" name="vantagem9" value="5"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="vitalidade">
+                    <h3>Vitalidade</h3>
+                    <div class="form-group">
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="1"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="2"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="3"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="4"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="5"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="6"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="7"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="8"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="9"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="10"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="11"></label>
+                        <label class="radio-rate"><input type="radio" name="vitalidade" value="12"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="1"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="2"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="3"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="4"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="5"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="6"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="7"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="8"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="9"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="10"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="11"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_vitalidade" value="12"></label>
+                    </div>
+                </div>
+                <div class="forca_vontade">
+                    <h3>Força de Vontade</h3>
+                    <div class="form-group">
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="1"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="2"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="3"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="4"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="5"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="6"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="7"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="8"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="9"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="10"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="11"></label>
+                        <label class="radio-rate"><input type="radio" name="forca_vontade" value="12"></label>
+                    </div>
+                    <div class="form-group">
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="1"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="2"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="3"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="4"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="5"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="6"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="7"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="8"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="9"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="10"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="11"></label>
+                        <label class="radio-rate"><input type="radio" name="dano_forca_vontade" value="12"></label>
+                    </div>
+                </div>
+                <div class="desvantagens">
+                    <h3>Desvantagens</h3>
+                    <div class="form-group">
+                        <input type="text" name="desvantagens[]">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="desvantagens[]">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="desvantagens[]">
+                    </div>
+                </div>
+                <div class="moralidade">
+                    <h3>Moralidade</h3>
+                </div>
+                <div class="caracteristicas">
+                    <div class="form-group">
+                        <label for="tamanho">Tamanho</label>
+                        <input type="text" name="tamanho"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="deslocamento">Deslocamento</label>
+                        <input type="text" name="deslocamento"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="modificador_iniciativa">Mod. Iniciativa</label>
+                        <input type="text" name="modificador_iniciativa"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="defesa">Defesa</label>
+                        <input type="text" name="defesa"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="blindagem">Blindagem</label>
+                        <input type="text" name="blindagem"/>
+                    </div>
+                </div>
+                <div class="experiencia">
+                    <label for="experiencia"><h3>Experiência</h3></label>
+                    <input type="text" name="experiencia">
+                </div>
+                <div class="armas col-xs-12">
 
-	 						<div class="armas col-xs-8">
-	 							<h3>Armas</h3>
-	 							<div class="form-group">
-	 								<input type="text" name="armas[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="armas[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="armas[]" class="form-control" />
-	 							</div>
-	 						</div>
-	 						<div class="modificadores col-xs-4">
-	 							<h3>Modificadores</h3>
-	 							<div class="form-group">
-	 								<input type="text" name="armas_modificadores[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="armas_modificadores[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="armas_modificadores[]" class="form-control" />
-	 							</div>
-	 						</div>
-	 					</div>
-	 					<div class="equipamentos col-xs-12">
+                    <div class="armas col-xs-8">
+                        <h3>Armas</h3>
+                        <div class="form-group">
+                            <input type="text" name="armas[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="armas[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="armas[]"/>
+                        </div>
+                    </div>
+                    <div class="modificadores col-xs-4">
+                        <h3>Modificadores</h3>
+                        <div class="form-group">
+                            <input type="text" name="armas_modificadores[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="armas_modificadores[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="armas_modificadores[]"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="equipamentos col-xs-12">
 
-	 						<div class="equipamentos col-xs-8">
-	 							<h3>Equipamentos</h3>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos[]" class="form-control" />
-	 							</div>
-	 						</div>
-	 						<div class="modificadores col-xs-4">
-	 							<h3>Modificadores</h3>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos_modificadores[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos_modificadores[]" class="form-control" />
-	 							</div>
-	 							<div class="form-group">
-	 								<input type="text" name="equipamentos_modificadores[]" class="form-control" />
-	 							</div>
-	 						</div>
-	 					</div>
-	 				</div>
-				</form>
-			</div>
-		</main>
-	</body>
+                    <div class="equipamentos col-xs-8">
+                        <h3>Equipamentos</h3>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos[]"/>
+                        </div>
+                    </div>
+                    <div class="modificadores col-xs-4">
+                        <h3>Modificadores</h3>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos_modificadores[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos_modificadores[]"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="equipamentos_modificadores[]"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
 </html>
